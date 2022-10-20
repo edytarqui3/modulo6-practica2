@@ -110,7 +110,8 @@ El resultado esperado es el siguiente:
 npm run build
 ```
 ### `RESULTADO `
-
+una vez levantado el servidor ingresar menu inicio
+![Ejecucion](practica2.0.PNG)
 listar y seleccionar productor:
 ![Ejecucion](practica2.1.PNG)
 informacion de producto:

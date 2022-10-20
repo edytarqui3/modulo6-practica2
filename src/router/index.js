@@ -3,6 +3,10 @@ import HomeView from '../views/HomeView.vue'
 
 const routes = [
   {
+    path: '/',
+    name: 'HomeView',
+    component: () => import(/* webpackChunkName: "TarjetaView" */ '../views/HomeView.vue')
+  },{
     path: '/about',
     name: 'about',
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
